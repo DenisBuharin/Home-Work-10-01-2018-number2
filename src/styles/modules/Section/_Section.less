@@ -1,0 +1,71 @@
+.Section {
+	font-size: 14px;
+	font-family: 'Source Sanc Pro light';
+	line-height: 1.5;
+	color: #6d6d6d;
+
+	&-title {
+		font-size: 31px;
+		color: #4e4e4e;
+	}
+
+	&-column {
+		column-count:3;
+		column-gap:40px;
+		column-width: 200px;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #cfcfcf;
+	}
+
+	&-orangeText {
+		border-left: 3px solid #ffc28c;
+		color: #ffc28c;
+		padding-left: 16px;
+		line-height: 1.2;
+	}
+
+	&-numbering {
+		font-size: 11px;
+		color: #a3a3a3;
+
+		&-orangelink {
+			text-decoration: underline;
+			color: #ffc28c;
+		}
+	}
+
+	&-content {
+		display: flex;
+		font-family: 'Source Sans Pro Light Italic';
+		color: #9a9a9a;
+		line-height: 1.3;
+		&-leftQuotation {
+			font-size: 66px;
+			display: flex;
+		}
+
+		&-text {
+			padding: 25px 7px 0 7px;
+		}
+
+		&-rightQuotation {
+			font-size: 66px;
+			display: flex;
+			align-items: flex-end;
+		}
+	}
+
+	&-endContent {
+		font-family: 'Source Sanc Pro light italic';
+		text-align: end;
+		color: #ffa352;
+		&-triangle {
+			padding-right: 5px;
+		}
+
+		&-orangelink {
+			text-decoration: underline;
+			color: #ffc28c;
+		}
+	}
+}
